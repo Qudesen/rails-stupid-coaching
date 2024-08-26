@@ -1,0 +1,11 @@
+<div class="row py-2 px-4 m-4 lh-1 border-start border-secondary-light border-4 col-4">
+<p><%= @question %></p>
+<p>-You</p>
+</div>
+<div class="row p-2 px-4 mx-4 border-start border-secondary-light border-4 col-4 alert alert-warning">
+<p><%= @answer %></p>
+<p>-Your Coach</p>
+</div>
+<div class="row p-2 px-4 lh-1">
+<%= link_to "Ask another question", ask_path %>
+</div>
